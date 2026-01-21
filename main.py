@@ -3,11 +3,11 @@ b = float ( input s( ’ podaj B : ’) )
 operacja = input ( ’ podaj operacje : ’)
 
 if operacja == ’+ ’:
-print ( f ’{ a } + { b } = { a + b } ’)
+    print ( f ’{ a } + { b } = { a + b } ’)
 elif operacja == ’ - ’:
-print ( f ’{ a } - { b } = {a - b } ’)
+    print ( f ’{ a } - { b } = {a - b } ’)
 elif operacja == ’ * ’:
-print( f ’{ a } * { b } = {a * b } ’)
+    print( f ’{ a } * { b } = {a * b } ’)
 elif operacja == ’ / ’:
     if b==0:
         print("B nie moze byc 0")
